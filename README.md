@@ -1,5 +1,4 @@
-<h1>Neurotrauma C# Addon Template</h1>h1>
-<hr>
+<h1>Neurotrauma C# Addon Template</h1>
 A premade template for Neurotrauma C# addons.
 Follow the instructions below to use.
 
