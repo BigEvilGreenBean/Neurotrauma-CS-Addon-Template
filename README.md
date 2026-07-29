@@ -1,3 +1,4 @@
+<img width="512" height="512" alt="templateaddon" src="https://github.com/user-attachments/assets/0152579d-087b-4a10-b905-5453133feda2" />
 <h1>Neurotrauma C# Addon Template</h1>
 A premade template for Neurotrauma C# addons.
 Follow the instructions below to use.
