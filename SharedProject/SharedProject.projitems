@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>3c1540c8-8235-4e85-8bff-9af5fe32fe99</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedProject</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)sharedsource\Config\ConfigData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)sharedsource\NT Components\Items.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)sharedsource\Init\SharedInit.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)sharedsource\NT Components\Stats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)sharedsource\NT Components\Afflictions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SharedSource\AssemblySettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)sharedsource\Init\AddonInit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)sharedsource\Config\" />
+    <Folder Include="$(MSBuildThisFileDirectory)sharedsource\Init\" />
+    <Folder Include="$(MSBuildThisFileDirectory)sharedsource\NT Components\" />
+  </ItemGroup>
+</Project>

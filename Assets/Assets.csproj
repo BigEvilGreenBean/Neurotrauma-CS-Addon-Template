@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ModAssets</RootNamespace>
+        <LangVersion>latest</LangVersion>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Content\Images\" />
+      <Folder Include="Content\Localization\English\" />
+      <Folder Include="Content\Lua\Scripts\Client\" />
+      <Folder Include="Content\Lua\Scripts\Server\" />
+      <Folder Include="Content\Lua\Scripts\Shared\" />
+      <Folder Include="Content\Sounds\" />
+      <Folder Include="Content\XML\Afflictions\" />
+      <Folder Include="Content\XML\Items\" />
+      <Folder Include="Content\XML\Talents\" />
+    </ItemGroup>
+
+    <Import Project="../Build.props" />
+
+    <Target Name="CopyFiles" AfterTargets="Build">
+        <ItemGroup>
+            <Content Include="$(ProjectDir)Content\**\*.*" />
+        </ItemGroup>
+        <Copy SourceFiles="@(Content)" DestinationFolder="$(ModDeployDir)%(RecursiveDir)" />
+    </Target>
+</Project>

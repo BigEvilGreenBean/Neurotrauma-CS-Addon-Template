@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModConfig>
+    <!-- Use the text replace function in your IDE to replace 'MyModName' with the name of the dll -->
+    <Assembly File="%ModDir%/bin/Client/Windows/Neurotrauma CS Addon.dll" Target="Client" Platform="Windows"/>
+    <Assembly File="%ModDir%/bin/Server/Windows/Neurotrauma CS Addon.dll" Target="Server" Platform="Windows"/>
+    
+    <!-- This is a sample config setup, change/delete it as needed. -->
+    <Config File="%ModDir%/Config/SettingsClient.xml" Target="Client" />
+    <Config File="%ModDir%/Config/SettingsShared.xml"  />
+    <Config File="%ModDir%/Config/SettingsServer.xml" Target="Server" />
+
+	<!-- Auto Run files -->
+	<!-- Shared -->
+	<Lua Folder="%ModDir%/Lua/Shared" Target="Any" IsAutorun="true" />
+
+	<!-- Serverside -->
+	<Lua Folder="%ModDir%/Lua/Server" Target="Server" IsAutorun="true" />
+
+	<!-- Clientside -->
+	<Lua Folder="%ModDir%/Lua/Client" Target="Client" IsAutorun="true" />
+	
+</ModConfig>
