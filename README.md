@@ -9,7 +9,9 @@ Follow the instructions below to use.
   
 - Change the LocalMods folder directory in **Build.props** to fit your system. If your using windows you most likely can ignore this.
   
-- Download the required refs from [here](https://github.com/evilfactory/LuaCsForBarotrauma/releases/download/latest/luacsforbarotrauma_refs.zip) and extract it to the "Refs" folder in the project. Note: you must create the folder.
+- Download the required Barotrauma refs from [here](https://github.com/evilfactory/LuaCsForBarotrauma/releases/download/latest/luacsforbarotrauma_refs.zip) and extract it to the "Refs" folder in the project. Note: you must create the folder.
+
+- Donwload the required Neurotrauma refs from here and extract it to the "Refs" folder in the project.
 
 - Download Visual Studio (Not Visual Code Studio!!!) with the .NET addon, then open the Addon.sln file using it to have the entire project visible and easily navigatable.
 
