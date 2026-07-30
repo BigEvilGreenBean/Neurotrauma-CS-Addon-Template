@@ -11,9 +11,9 @@ Follow the instructions below to use.
   
 - Download the required Barotrauma refs from [here](https://github.com/evilfactory/LuaCsForBarotrauma/releases/download/latest/luacsforbarotrauma_refs.zip) and extract it to the "Refs" folder in the project. Note: you must create the folder.
 
-- Donwload the required Neurotrauma refs from here and extract it to the "Refs" folder in the project.
+- Download the required Neurotrauma refs from [here](https://github.com/BigEvilGreenBean/Neurotrauma-C-Refs/releases/download/NT_CS_Refs/NT.zip) and extract it to the "Refs" folder in the project.
 
-- Download Visual Studio (Not Visual Code Studio!!!) with the .NET addon, then open the Addon.sln file using it to have the entire project visible and easily navigatable.
+- Download Visual Studio (Not Visual Code Studio!!!) with the .NET addon, then open the Addon.sln file using it to have the entire project visible and easily navigable.
 
 - If you want to test, you should go to the top side of the screen and under 'Build' hit 'Rebuild Solution'; this will re-generate the entire LocalMod. You can then Launch Barotrauma via Visual Studio or the normal way.
 
