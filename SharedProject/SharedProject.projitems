@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)sharedsource\Config\ConfigData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)sharedsource\MP+SP Serverside\OnDamaged.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)sharedsource\NT Components\Items.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)sharedsource\Init\SharedInit.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)sharedsource\NT Components\Stats.cs" />
